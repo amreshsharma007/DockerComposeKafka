@@ -41,6 +41,7 @@ This repository contains a `docker-compose.yml` file for setting up a Kafka envi
 - **Network Mode**: `host`
 - **Depends On**: `kafka`, `zookeeper`
 - **Environment Variables**:
+  - `SERVER_PORT=8080`
   - `KAFKA_CLUSTERS_0_NAME=Localhost`
   - `KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=localhost:29092`
   - `DYNAMIC_CONFIG_ENABLED=true`
