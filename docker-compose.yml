@@ -32,7 +32,7 @@ services:
       - kafka
       - zookeeper
     environment:
-      SERVER_PORT: 8889
+      SERVER_PORT: 8080
       KAFKA_CLUSTERS_0_NAME: Localhost
       KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: localhost:29092
       DYNAMIC_CONFIG_ENABLED: 'true'
